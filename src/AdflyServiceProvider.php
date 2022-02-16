@@ -22,7 +22,7 @@ class AdflyServiceProvider extends BaseServiceProvider
 
     protected function configPath()
     {
-        return __DIR__ . '/../config/adfly.php';
+        return __DIR__ . '/config/adfly.php';
     }
 
     public function register()
