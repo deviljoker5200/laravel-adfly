@@ -1,0 +1,24 @@
+{
+    "name": "deviljoker5200\/laravel-adfly",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "C",
+            "email": "deviljoker5200@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Deviljoker5200\\LaravelAdfly\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deviljoker5200\\LaravelAdfly\\AdflyServiceProvider"
+            ]
+        }
+    }
+}
